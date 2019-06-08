@@ -1,7 +1,7 @@
 from selenium import webdriver      # 导入包
 import time                         # 导入时间包
 # 对浏览器进行实例化
-driver = webdriver.Chrome(executable_path="../chromedriver.exe")     # 定义对象
+driver = webdriver.Chrome(executable_path="G:\TestCourses\class_langjin\chromedriver.exe")     # 定义对象
 time.sleep(5)
 # 打开登录的网址
 driver.get("http://118.24.29.59:8080/")
